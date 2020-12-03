@@ -1,26 +1,27 @@
-# TEST1000000
+--[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)--
+  # README_generator
   
 ## Description:
-no
+This is a project that make a developer who needs a good and autpmated-generate readme file. Just simply answer all the questions, a nice readme file will be created. 
   
 ## Installation_Instruction:
-no
+1. Download the file from gitHub. 2. Open the code using any code editor. 3.Install inquirer package in npm.
   
 ## Usage_Information:
-no
+No particular usage information.
   
 ## Contribution_Guideline:
-no
+UofT initial file.
   
 ## Test_Instructio: 
 undefined
   
 ## License: 
-MIT
+Do What The F*ck You Want To Public License
   
 ## Questions: 
-https://github.com/yenyulau
+https://github.com/yenyulai
   
-If you have any further concern or questions, please e-mail: 15@gmail.com
+If you have any further concern or questions, please e-mail: yenyulai98@gmail.com
 
 
