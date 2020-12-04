@@ -6,14 +6,13 @@ const generateMarkdown = require('./utils/generateMarkdown');
 const questions = [
     "What is the name of your project ?",
     "Please put in the descriptino of this project.",
-    "Please put in the installation instruction",
+    "Please enter installation instruction",
     "What is the usage infomation ?",
     "Please type in the contribution guideline",
     "Please put in the test instruction",
     "Please select your license",
     "Please enter your username in github",
     "Please enter your email",
-    
 
 ];
 
@@ -61,14 +60,10 @@ function init() {
         name: 'License',
         message: questions[6],
         choices: ['MIT', 
-                  'Academic Free License v3.0',
                   'Apache license 2.0',
                   'Boost Software License 1.0',
-                  'Creative Commons license family',
                   'Do What The F*ck You Want To Public License',
-                  'Educational Community License v2.0',
-
-
+                  'Mozilla Public License 2.0',
                 ],
       },
       {
@@ -81,11 +76,14 @@ function init() {
       },
     ])
     .then(answers => {
-        // console.log(answers);
+        // console.log(answers.License);
       let content = generateMarkdown(answers);
       writeToFile('README.md', content); 
     });
 }
+
+
+
 
 // function call to initialize program
 init();
